@@ -1,0 +1,859 @@
+.body-main {
+    font-family: 'Roboto', sans-serif;
+}
+/* Навигация */
+.header {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-main {
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+.nav-top {
+    list-style: none;
+}
+
+.nav-top a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.studio-nav {
+    position: absolute;
+    width: 49px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
+.portfolio-nav {
+    position: absolute;
+    width: 77px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+}
+.contacts-nav {
+    position: absolute;
+    width: 68px;
+    height: 16px;
+    left: 679px;
+    top: 32px;
+}
+.nav-top .top-link:hover,
+.nav-top .top-link:focus {
+    color: #2196F3;
+}
+.mail-top {
+    text-decoration: none;
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+color: #757575;
+}
+.mail-top:hover,
+.mail-top:focus {
+    color: #2196F3;
+}
+
+.tel-top {
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+color: #757575;
+}
+/* Герой */
+.hero-section {
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+    color: #FFFFFF;
+}
+.hero-section .hero-button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 380px;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.hero-section h1 {
+    position: absolute;
+    padding-top: 200px;
+    width: 696px;
+    left: 452px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+/* Особенности */
+.features-h {
+    display: none;
+}
+.features li {
+    list-style: none;
+    text-align: left;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+}
+.features h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.features p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.details h3 {
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 774px;
+}
+.details p {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 215px;
+    top: 800px;
+}
+.punctuality h3 {
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 515px;
+    top: 774px;
+}
+.punctuality p {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 515px;
+    top: 800px;
+}
+.planning h3 {
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 815px;
+    top: 774px;
+}
+.planning p{
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 815px;
+    top: 800px;
+}
+.technologies h3 {
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 1115px;
+    top: 774px;
+}
+.technologies p {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 1115px;
+    top: 800px;
+}
+/* Чем мы занимаемся */
+.our-work {
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 969px;
+}
+.our-work-h {
+    position: absolute;
+    margin-top: 0;
+    height: 42px;
+    left: 612px;
+    top: 969px;
+    bottom: 1338px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.our-work-images {
+    padding-left:0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.our-work-images-pc {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1061px;
+}
+.our-work-images-phone {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1061px;
+}
+.our-work-images-tablet{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1061px;
+}
+/* Наша команда */
+.team {
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background: #F5F4FA;
+}
+.team .team-h {
+    text-align: center;
+    height: 42px;
+    left: 668px;
+    top: 1543px;
+    padding-top: 94px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-members {
+    width: 1170px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    padding-left: 0;
+}
+.team-members li {
+    list-style: none;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Демьяненко */
+.demyanenko {
+    margin-left: 215px;
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+}
+.team-members .demyanenko-img {   
+    width: 270px;
+    height: 260px;
+    left: 215px;
+    top: 1635px;    
+    border-radius: 0px;
+}
+.team-members .demyanenko-name {
+    height: 19px;
+    left: 275px;
+    top: 1925px;
+}
+.team-members .product-designer {
+    height: 19px;
+    left: 285px;
+    top: 1954px;
+}
+/* Репина */
+.repina {
+    margin-left: 515px;
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+}
+.team-members .repina-img {
+    width: 270px;
+    height: 260px;
+    left: 515px;
+    top: 1635px;
+    border-radius: 0px;
+}
+.team-members .repina-name {
+    height: 19px;
+    left: 596px;
+    top: 1925px;
+}
+.team-members .frontend-developer {
+    height: 19px;
+    left: 577px;
+    top: 1954px;
+}
+/* Тарасов */
+.tarasov {
+    margin-left: 815px;
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+}
+.team-members .tarasov-img {
+    width: 270px;
+    height: 260px;
+    left: 815px;
+    top: 1635px;
+    border-radius: 0px;
+}
+.team-members .tarasov-name {
+    height: 19px;
+    left: 882px;
+    top: 1925px;
+}
+.team-members .marketing {
+    height: 19px;
+    left: 912px;
+    top: 1954px;
+}
+/* Ермаков */
+.yermakov {
+    margin-left: 1115px;
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+}
+.team-members .yermakov-img {
+    width: 270px;
+    height: 260px;
+    left: 1115px;
+    top: 1635px;
+}
+.team-members .yermakov-name {
+    height: 19px;
+    left: 1183px;
+    top: 1925px;
+}
+.team-members .ui-designer {
+    height: 19px;
+    left: 1207px;
+    top: 1954px;
+}
+.team .team-members h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team .team-members p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* Футер */
+.footer {
+    position: absolute;
+    padding-top: 60px;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;    
+}
+.footer .logo-footer {
+    padding-left: 215px;
+    text-align: left;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2157px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo-footer .studio-footer {
+    color: #FFFFFF
+}
+.address-footer {
+    padding-top:20px;
+    padding-left: 215px;
+    width: 231px;
+    text-align: left;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.address-footer a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+/* Портфолио */
+.body-portfolio {
+    margin: 0;
+}
+.portfolio-main {
+    width: 1170px;
+    height: 1360px;
+    top: 174px;
+}
+.filters {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+.filters {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+
+    padding: 174 494 1652 495 px;    
+}
+.filters .filter {
+    position: absolute;
+    width: 611px;
+    height: 54px;
+    top: 174px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.filters .all {
+    width: 73px;
+    height: 38px;
+    left: 495px;
+}
+.filter:hover, 
+.filter:focus,
+.filter:active {
+    color: #FFFFFF;
+}
+.filters .web {
+    width: 84px;
+    left: 598px;
+}
+.filters .apps {
+    padding-left: 734px;
+}
+.filters .design {
+    padding-left: 887px;
+}
+.filters .marketing {
+    padding-left: 998px;
+}
+
+
+/* Проекты */
+.products {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 94px;
+}
+/*Технокряк*/
+.techno {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.techno-img {
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 262px;
+}
+.techno-project {
+    width: 322px;
+    height: 36px;
+    left: 239px;
+    top: 576px;
+}
+.techno-product {
+    width: 322px;
+    height: 30px;
+    left: 239px;
+    top: 616px;
+}
+/*Постер*/
+.poster {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.poster-img {
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 262px;
+}
+.poster-project {
+    width: 322px;
+    height: 36px;
+    left: 639px;
+    top: 576px;
+}
+.poster-product {
+    width: 322px;
+    height: 30px;
+    left: 639px;
+    top: 616px;
+}
+/* Ресторан Seafood */
+.seafood {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 262px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.seafood-img {
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 262px;
+}
+.seafood-project {
+    width: 322px;
+    height: 36px;
+    left: 1039px;
+    top: 576px;
+}
+.seafood-product {
+    width: 322px;
+    height: 30px;
+    left: 1039px;
+    top: 616px;
+}
+/* Проект Prime */
+.prime {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 696px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.prime-img {
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 696px;
+}
+.prime-project {
+    width: 322px;
+    height: 36px;
+    left: 239px;
+    top: 1010px;
+}
+.prime-product {
+    width: 322px;
+    height: 30px;
+    left: 239px;
+    top: 1050px;
+}
+
+/* Проект Boxes*/
+.boxes {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 696px;
+    
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.boxes-img {
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 696px;
+}
+.boxes-project {
+    width: 322px;
+    height: 36px;
+    left: 639px;
+    top: 1010px;
+}
+.boxes-product {
+    width: 322px;
+    height: 30px;
+    left: 639px;
+    top: 1050px;
+}
+
+/* Проект Inspiration has no Borders */
+.inspiration {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 696px;
+    
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.inspiration-img {
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 696px;
+}
+.inspiration-project {
+    width: 322px;
+    height: 36px;
+    left: 1039px;
+    top: 1010px;
+}
+.inspiration-product {
+    width: 322px;
+    height: 30px;
+    left: 1039px;
+    top: 1050px;
+}
+/* Издание Limited Edition */
+.limited {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 1130px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.limited-img {
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1130px;
+}
+.limited-project {
+    width: 322px;
+    height: 36px;
+    left: 239px;
+    top: 1444px;
+}
+.limited-product {
+    width: 322px;
+    height: 30px;
+    left: 239px;
+    top: 1484px;
+}
+/* Проект LAB */
+.lab {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 1130px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.lab-img {
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1130px;
+}
+.lab-project {
+    width: 322px;
+    height: 36px;
+    left: 639px;
+    top: 1444px;
+}
+.lab-product {
+    width: 322px;
+    height: 30px;
+    left: 639px;
+    top: 1484px;
+}
+
+/* Growing Business */
+.business {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 1130px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.business-img {
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1130px;
+}
+.business-project {
+    width: 322px;
+    height: 36px;
+    left: 1039px;
+    top: 1444px;
+}
+.business-product{
+    width: 322px;
+    height: 30px;
+    left: 1039px;
+    top: 1484px;
+}
+.products h3 {
+    padding-left: 24px;
+    padding-bottom:4px;
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.products p {
+    padding-left: 24px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
